@@ -8,7 +8,7 @@ while True:
     ret, frame = cap.read()
     if ret == False: break 
 
-    faces = faceClassIf.detectMiltiScale(frame,1.2,5)
+    faces = faceClassIf.detectMultiScale(frame,1.2,5)
 
     for (x,y,w,h) in faces :
         cv2.rectangle(frame,(x,y),(x+w, y+h ), (0,255,0),2)
