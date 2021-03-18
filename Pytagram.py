@@ -4,7 +4,7 @@ import imutils
 cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
 
 #Imagen a incrustar en el video
-image=cv2.imread("cubrebocas.png", cv2.IMREAD_UNCHANGED)
+image=cv2.imread("CubrebocasTec.png", cv2.IMREAD_UNCHANGED)
 
 faceClassIf = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 while True:
