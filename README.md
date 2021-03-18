@@ -1,5 +1,5 @@
-## Proyecto
+# Proyecto
 
 Repositorio proyecto
 
-# Requisitos de sistema
+### Requisitos de sistema
