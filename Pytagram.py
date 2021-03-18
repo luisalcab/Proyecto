@@ -3,6 +3,11 @@ import imutils
 
 cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
 
+#Imagen a incrustar en el video
+image=cv2.imread("pixlr-bg-result.png", cv2.IMREAD_UNCHANGED)
+print("image.shape = ", image.shape)
+cv2.imshow("image", image[:,:,3])
+
 faceClassIf = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 while True:
     ret, frame = cap.read()
