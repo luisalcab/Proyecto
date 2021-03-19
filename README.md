@@ -6,7 +6,7 @@ Este es el repositorio de nuestro proyecto Pytagram. El proyecto consiste en un 
 
 ## Requisitos 
 
-Para correr este script se requiere Python 3 e instalar las dependencias que se encuentran en **requirements.txt**
+Para correr los scripts (Pytagram.py y Pytagram 2.py) se requiere Python 3 e instalar las dependencias que se encuentran en **requirements.txt**
 
 ## Instalación
 
