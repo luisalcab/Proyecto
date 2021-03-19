@@ -16,6 +16,13 @@ Para instalar las dependencias utilizando el instalador de paquetes pip, corremo
 pip3 install -r requirements.txt
 ``` 
 
+o en algunos casos:
+
+```shell
+pip install -r requirements.txt
+```
+
+
 ## Uso
 
 Para correr el script Pytagram.py asegurarse de estar en el directorio del proyecto y ejecutar el siguiente codigo en la terminal:
