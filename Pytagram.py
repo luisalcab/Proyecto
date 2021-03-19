@@ -25,7 +25,7 @@ while True:
         resized_image = imutils.resize(image, width= w)
         filas_image = resized_image.shape[0]
         col_image = w
-
+        
         dif = 0
 
         #Ajusta la imagen a incrustar en el video en la zona de las caras o cara detectadas por la camara
@@ -60,5 +60,6 @@ while True:
     if k == 27:
         break
 
+#Cierra la ventana emergente
 cap.release()
 cv2.destroyAllWindows()
