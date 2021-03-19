@@ -4,7 +4,6 @@ import imutils
 #Modificacion quitando el argumento cv2.CAP_DSHOW para soporte en MAC
 cap = cv2.VideoCapture(0)
 
-#Imagen a incrustar en el video
 image=cv2.imread("Gorrito.png", cv2.IMREAD_UNCHANGED)
 
 faceClassIf = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
@@ -38,7 +37,6 @@ while True:
         bg_black = bg_black[dif:, :, 0:3]
         bg_frame = cv2.bitwise_and(n_frame, n_frame, mask = mask_inv[dif:, :])
 
-        #Sumar imagenes
         result = cv2.add(bg_black, bg_frame)
         if y - filas_image + porcion_alto >= 0:
             frame[y - filas_image + porcion_alto: y + porcion_alto, x: x + w] = result
