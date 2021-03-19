@@ -39,12 +39,12 @@ python Pytagram.py
 Para correr el script Pytagram 2.py asegurarse de estar en el directorio del proyecto y ejecutar el siguiente codigo en la terminal:
 
 ```shell
-python3 Pytagram 2.py
+python3 'Pytagram 2.py'
 ```
 o en algunos casos:
 
 ```shell
-python Pytagram 2.py
+python 'Pytagram 2.py'
 ```
 
 Para terminar la ejecución del script hacer click en el video y presionar la tecla ESC
