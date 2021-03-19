@@ -8,6 +8,8 @@ Este es el repositorio de nuestro proyecto Pytagram. El proyecto consiste en un 
 
 Para correr los scripts (Pytagram.py y Pytagram 2.py) se requiere Python 3 e instalar las dependencias que se encuentran en **requirements.txt**
 
+Para sistemas opertativos OSX, usa MACPytagram.py y MACPytagram 2.py
+
 ## Instalación
 
 Para instalar las dependencias utilizando el instalador de paquetes pip, corremos el siguiente codigo en la terminal:
