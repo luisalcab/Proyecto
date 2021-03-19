@@ -1,6 +1,7 @@
 import cv2
 import imutils
 
+#Modificacion quitando el argumento cv2.CAP_DSHOW para soporte en MAC
 cap = cv2.VideoCapture(0)
 
 #Imagen a incrustar en el video
