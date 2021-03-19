@@ -22,8 +22,7 @@ while True:
 
         dif = 0
 
-        #La division de filas es diferente al primer codigo ya que queremos poner
-        #la imagen a incrustar en el video en otra posicion
+        #La division de filas es diferente al primer codigo ya que queremos poner la imagen a incrustar en el video en otra posicion
         porcion_alto = filas_image // 500
  
         if y - filas_image + porcion_alto >= 0:
