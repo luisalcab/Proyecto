@@ -1,3 +1,4 @@
+#Importa la libreria para el funcionamiento optimo del programa
 import cv2
 #Importa la libreria que ayuda a redimensionar la imagen a incrustar en el video
 import imutils
