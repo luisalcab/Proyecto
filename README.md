@@ -18,7 +18,7 @@ pip3 install -r requirements.txt
 
 ## Uso
 
-Para correr este script asegurarse de estar en el directorio del proyecto y ejecutar el siguiente codigo en la terminal:
+Para correr el script Pytagram.py asegurarse de estar en el directorio del proyecto y ejecutar el siguiente codigo en la terminal:
 
 ```shell
 python3 Pytagram.py
@@ -27,6 +27,17 @@ o en algunos casos:
 
 ```shell
 python Pytagram.py
+```
+
+Para correr el script Pytagram 2.py asegurarse de estar en el directorio del proyecto y ejecutar el siguiente codigo en la terminal:
+
+```shell
+python3 Pytagram 2.py
+```
+o en algunos casos:
+
+```shell
+python Pytagram 2.py
 ```
 
 Para terminar la ejecución del script hacer click en el video y presionar la tecla ESC
