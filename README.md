@@ -23,6 +23,11 @@ Para correr este script asegurarse de estar en el directorio del proyecto y ejec
 ```shell
 python3 Pytagram.py
 ```
+o
+
+```shell
+python Pytagram.py
+```
 
 Para terminar la ejecución del script hacer click en el video y presionar la tecla ESC
 
