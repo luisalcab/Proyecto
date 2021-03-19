@@ -36,5 +36,3 @@ Para terminar la ejecución del script hacer click en el video y presionar la te
 
 - [🤴 Creando Filtros como los de Instagram | OpenCV Python](https://github.com/GabySol/OmesTutorials2020/tree/master/19%20FILTRO_gorro_tiara_2021)
  
-
-
